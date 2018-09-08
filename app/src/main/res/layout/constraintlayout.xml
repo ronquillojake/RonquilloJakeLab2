@@ -32,18 +32,41 @@
         android:layout_height="61dp"
         android:text="Santa Clara St Fort Santiago, Intramuros, Manila, Luzon 1008 Philippines"
         android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="386dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="24dp"
+        android:text="Location:"
+        android:textColor="@android:color/background_dark"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="59dp"
+        android:layout_width="427dp"
+        android:layout_height="33dp"
         android:layout_marginBottom="24dp"
-        android:text="Distance from UST: 3.8 km from University of Santo Tomas "
+        android:text="Distance from UST:"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="427dp"
+        android:layout_height="33dp"
+        android:text="3.8 km from University of Santo Tomas "
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         tools:layout_editor_absoluteX="0dp" />
 
